@@ -1,0 +1,35 @@
+@import url('basis.css'); 
+header#header.header {
+     
+    width: 100vw;    
+}
+main#main {
+    margin: 0 12.5vw 0 12.5vw;  
+    width: 75vw; 
+}
+div.heads {
+    width: 75vw;
+    justify-content: space-evenly; 
+}
+div.imgheader {
+    width: 12.5vw;
+    text-align: center; 
+}
+.header#header div#svgHeader{
+    flex: 0 0 12.5vw; 
+    text-align: center; 
+
+}
+.h1header {
+    font-size: 2.3rem; 
+   
+}
+.h2header {
+    font-size: 3.3rem;
+    
+}
+.bilder {
+    max-width: 250px;
+}
+
+

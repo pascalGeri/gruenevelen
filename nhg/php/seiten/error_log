@@ -1,0 +1,266 @@
+[05-May-2020 16:13:01 UTC] PHP Notice:  Undefined index: email in /home/grueneve/public_html/nhg/php/seiten/mitglieder.php on line 19
+[05-May-2020 18:21:18 UTC] PHP Notice:  Undefined index: email in /home/grueneve/public_html/nhg/php/seiten/mitglieder.php on line 19
+[06-May-2020 09:42:54 UTC] PHP Notice:  Undefined index: email in /home/grueneve/public_html/nhg/php/seiten/mitglieder.php on line 19
+[06-May-2020 09:48:24 UTC] PHP Parse error:  syntax error, unexpected '?>' in /home/grueneve/public_html/nhg/php/seiten/mitglieder.php on line 22
+[06-May-2020 09:48:33 UTC] PHP Parse error:  syntax error, unexpected '?>' in /home/grueneve/public_html/nhg/php/seiten/mitglieder.php on line 22
+[06-May-2020 09:48:44 UTC] PHP Parse error:  syntax error, unexpected '?>' in /home/grueneve/public_html/nhg/php/seiten/mitglieder.php on line 22
+[06-May-2020 09:49:13 UTC] PHP Parse error:  syntax error, unexpected '?>' in /home/grueneve/public_html/nhg/php/seiten/mitglieder.php on line 22
+[06-May-2020 09:50:25 UTC] PHP Parse error:  syntax error, unexpected 'nachricht' (T_STRING), expecting ',' or ';' in /home/grueneve/public_html/nhg/php/seiten/mitglieder.php on line 22
+[06-May-2020 09:51:25 UTC] PHP Notice:  Undefined index: email in /home/grueneve/public_html/nhg/php/seiten/mitglieder.php on line 19
+[06-May-2020 09:54:05 UTC] PHP Notice:  Undefined index: email in /home/grueneve/public_html/nhg/php/seiten/mitglieder.php on line 19
+[06-May-2020 09:54:05 UTC] PHP Notice:  Undefined index: email in /home/grueneve/public_html/nhg/php/seiten/mitglieder.php on line 22
+[06-May-2020 09:56:52 UTC] PHP Notice:  Undefined index: email in /home/grueneve/public_html/nhg/php/seiten/mitglieder.php on line 19
+[06-May-2020 09:56:52 UTC] PHP Notice:  Undefined index: email in /home/grueneve/public_html/nhg/php/seiten/mitglieder.php on line 23
+[06-May-2020 10:01:19 UTC] PHP Notice:  Undefined index: email in /home/grueneve/public_html/nhg/php/seiten/mitglieder.php on line 19
+[06-May-2020 10:01:19 UTC] PHP Notice:  Undefined index: email in /home/grueneve/public_html/nhg/php/seiten/mitglieder.php on line 23
+[06-May-2020 10:01:59 UTC] PHP Notice:  Undefined index: email in /home/grueneve/public_html/nhg/php/seiten/mitglieder.php on line 19
+[06-May-2020 10:01:59 UTC] PHP Notice:  Undefined index: email in /home/grueneve/public_html/nhg/php/seiten/mitglieder.php on line 23
+[06-May-2020 10:32:46 UTC] PHP Parse error:  syntax error, unexpected '' (T_ENCAPSED_AND_WHITESPACE), expecting '-' or identifier (T_STRING) or variable (T_VARIABLE) or number (T_NUM_STRING) in /home/grueneve/public_html/nhg/php/seiten/mitglieder.php on line 20
+[06-May-2020 12:02:26 UTC] PHP Parse error:  syntax error, unexpected '' (T_ENCAPSED_AND_WHITESPACE), expecting '-' or identifier (T_STRING) or variable (T_VARIABLE) or number (T_NUM_STRING) in /home/grueneve/public_html/nhg/php/seiten/mitglieder.php on line 19
+[06-May-2020 12:39:00 UTC] PHP Warning:  mail(): Multiple or malformed newlines found in additional_header in /home/grueneve/public_html/nhg/php/seiten/mitglieder.php on line 31
+[06-May-2020 12:39:50 UTC] PHP Warning:  mail(): Multiple or malformed newlines found in additional_header in /home/grueneve/public_html/nhg/php/seiten/mitglieder.php on line 31
+[06-May-2020 13:02:24 UTC] PHP Parse error:  syntax error, unexpected '/' in /home/grueneve/public_html/nhg/php/seiten/mitglieder.php on line 29
+[06-May-2020 13:02:57 UTC] PHP Parse error:  syntax error, unexpected ''</p>'' (T_CONSTANT_ENCAPSED_STRING) in /home/grueneve/public_html/nhg/php/seiten/mitglieder.php on line 29
+[07-Jun-2020 10:15:36 UTC] PHP Fatal error:  Uncaught PDOException: SQLSTATE[28000] [1045] Access denied for user 'grueneve_alles'@'localhost' (using password: YES) in /home/grueneve/public_html/nhg/php/components/footer.php:8
+Stack trace:
+#0 /home/grueneve/public_html/nhg/php/components/footer.php(8): PDO->__construct('mysql:host=loca...', 'grueneve_alles', 'Pascal45@phpmya...')
+#1 /home/grueneve/public_html/nhg/php/components/footer.php(10): createConnection('grueneve_alles', 'Pascal45@phpmya...')
+#2 /home/grueneve/public_html/nhg/php/seiten/mitglieder.php(74): require_once('/home/grueneve/...')
+#3 {main}
+  thrown in /home/grueneve/public_html/nhg/php/components/footer.php on line 8
+[07-Jun-2020 10:17:12 UTC] PHP Fatal error:  Uncaught PDOException: SQLSTATE[28000] [1045] Access denied for user 'grueneve_alles'@'localhost' (using password: YES) in /home/grueneve/public_html/nhg/php/components/footer.php:8
+Stack trace:
+#0 /home/grueneve/public_html/nhg/php/components/footer.php(8): PDO->__construct('mysql:host=loca...', 'grueneve_alles', 'Pascal45@phpmya...')
+#1 /home/grueneve/public_html/nhg/php/components/footer.php(10): createConnection('grueneve_alles', 'Pascal45@phpmya...')
+#2 /home/grueneve/public_html/nhg/php/seiten/mitglieder.php(74): require_once('/home/grueneve/...')
+#3 {main}
+  thrown in /home/grueneve/public_html/nhg/php/components/footer.php on line 8
+[07-Jun-2020 10:17:28 UTC] PHP Fatal error:  Uncaught PDOException: SQLSTATE[28000] [1045] Access denied for user 'grueneve_alles'@'localhost' (using password: YES) in /home/grueneve/public_html/nhg/php/components/footer.php:8
+Stack trace:
+#0 /home/grueneve/public_html/nhg/php/components/footer.php(8): PDO->__construct('mysql:host=loca...', 'grueneve_alles', 'Pascal45@phpmya...')
+#1 /home/grueneve/public_html/nhg/php/components/footer.php(10): createConnection('grueneve_alles', 'Pascal45@phpmya...')
+#2 /home/grueneve/public_html/nhg/php/seiten/mitglieder.php(74): require_once('/home/grueneve/...')
+#3 {main}
+  thrown in /home/grueneve/public_html/nhg/php/components/footer.php on line 8
+[07-Jun-2020 12:07:50 UTC] PHP Fatal error:  Uncaught PDOException: SQLSTATE[28000] [1045] Access denied for user 'grueneve_alles'@'localhost' (using password: YES) in /home/grueneve/public_html/nhg/php/components/footer.php:8
+Stack trace:
+#0 /home/grueneve/public_html/nhg/php/components/footer.php(8): PDO->__construct('mysql:host=loca...', 'grueneve_alles', 'Pascal45@phpmya...')
+#1 /home/grueneve/public_html/nhg/php/components/footer.php(10): createConnection('grueneve_alles', 'Pascal45@phpmya...')
+#2 /home/grueneve/public_html/nhg/php/seiten/index.php(67): require_once('/home/grueneve/...')
+#3 {main}
+  thrown in /home/grueneve/public_html/nhg/php/components/footer.php on line 8
+[07-Jun-2020 16:19:09 UTC] PHP Fatal error:  Uncaught PDOException: SQLSTATE[28000] [1045] Access denied for user 'grueneve_alles'@'localhost' (using password: YES) in /home/grueneve/public_html/nhg/php/components/footer.php:8
+Stack trace:
+#0 /home/grueneve/public_html/nhg/php/components/footer.php(8): PDO->__construct('mysql:host=loca...', 'grueneve_alles', 'Pascal45@phpmya...')
+#1 /home/grueneve/public_html/nhg/php/components/footer.php(10): createConnection('grueneve_alles', 'Pascal45@phpmya...')
+#2 /home/grueneve/public_html/nhg/php/seiten/mitglieder.php(74): require_once('/home/grueneve/...')
+#3 {main}
+  thrown in /home/grueneve/public_html/nhg/php/components/footer.php on line 8
+[07-Jun-2020 17:01:33 UTC] PHP Fatal error:  Uncaught PDOException: SQLSTATE[28000] [1045] Access denied for user 'grueneve_alles'@'localhost' (using password: YES) in /home/grueneve/public_html/nhg/php/components/footer.php:8
+Stack trace:
+#0 /home/grueneve/public_html/nhg/php/components/footer.php(8): PDO->__construct('mysql:host=loca...', 'grueneve_alles', 'Pascal45@phpmya...')
+#1 /home/grueneve/public_html/nhg/php/components/footer.php(10): createConnection('grueneve_alles', 'Pascal45@phpmya...')
+#2 /home/grueneve/public_html/nhg/php/seiten/mitglieder.php(74): require_once('/home/grueneve/...')
+#3 {main}
+  thrown in /home/grueneve/public_html/nhg/php/components/footer.php on line 8
+[07-Jun-2020 19:05:17 UTC] PHP Fatal error:  Uncaught PDOException: SQLSTATE[28000] [1045] Access denied for user 'grueneve_alles'@'localhost' (using password: YES) in /home/grueneve/public_html/nhg/php/components/footer.php:8
+Stack trace:
+#0 /home/grueneve/public_html/nhg/php/components/footer.php(8): PDO->__construct('mysql:host=loca...', 'grueneve_alles', 'Pascal45@phpmya...')
+#1 /home/grueneve/public_html/nhg/php/components/footer.php(10): createConnection('grueneve_alles', 'Pascal45@phpmya...')
+#2 /home/grueneve/public_html/nhg/php/seiten/mitglieder.php(74): require_once('/home/grueneve/...')
+#3 {main}
+  thrown in /home/grueneve/public_html/nhg/php/components/footer.php on line 8
+[07-Jun-2020 19:05:23 UTC] PHP Fatal error:  Uncaught PDOException: SQLSTATE[28000] [1045] Access denied for user 'grueneve_alles'@'localhost' (using password: YES) in /home/grueneve/public_html/nhg/php/components/footer.php:8
+Stack trace:
+#0 /home/grueneve/public_html/nhg/php/components/footer.php(8): PDO->__construct('mysql:host=loca...', 'grueneve_alles', 'Pascal45@phpmya...')
+#1 /home/grueneve/public_html/nhg/php/components/footer.php(10): createConnection('grueneve_alles', 'Pascal45@phpmya...')
+#2 /home/grueneve/public_html/nhg/php/seiten/LOGIN.php(104): require_once('/home/grueneve/...')
+#3 {main}
+  thrown in /home/grueneve/public_html/nhg/php/components/footer.php on line 8
+[07-Jun-2020 19:05:36 UTC] PHP Fatal error:  Uncaught PDOException: SQLSTATE[28000] [1045] Access denied for user 'root'@'localhost' (using password: NO) in /home/grueneve/public_html/nhg/php/seiten/LOGIN.php:49
+Stack trace:
+#0 /home/grueneve/public_html/nhg/php/seiten/LOGIN.php(49): PDO->__construct('mysql:host=loca...', 'root', '')
+#1 {main}
+  thrown in /home/grueneve/public_html/nhg/php/seiten/LOGIN.php on line 49
+[07-Jun-2020 19:09:03 UTC] PHP Fatal error:  Uncaught PDOException: SQLSTATE[28000] [1045] Access denied for user 'grueneve_alles'@'localhost' (using password: YES) in /home/grueneve/public_html/nhg/php/components/footer.php:8
+Stack trace:
+#0 /home/grueneve/public_html/nhg/php/components/footer.php(8): PDO->__construct('mysql:host=loca...', 'grueneve_alles', 'Pascal45@phpmya...')
+#1 /home/grueneve/public_html/nhg/php/components/footer.php(10): createConnection('grueneve_alles', 'Pascal45@phpmya...')
+#2 /home/grueneve/public_html/nhg/php/seiten/index.php(67): require_once('/home/grueneve/...')
+#3 {main}
+  thrown in /home/grueneve/public_html/nhg/php/components/footer.php on line 8
+[08-Jun-2020 14:20:07 UTC] PHP Fatal error:  Uncaught PDOException: SQLSTATE[28000] [1045] Access denied for user 'grueneve_alles'@'localhost' (using password: YES) in /home/grueneve/public_html/nhg/php/components/footer.php:8
+Stack trace:
+#0 /home/grueneve/public_html/nhg/php/components/footer.php(8): PDO->__construct('mysql:host=loca...', 'grueneve_alles', 'Pascal45@phpmya...')
+#1 /home/grueneve/public_html/nhg/php/components/footer.php(10): createConnection('grueneve_alles', 'Pascal45@phpmya...')
+#2 /home/grueneve/public_html/nhg/php/seiten/index.php(67): require_once('/home/grueneve/...')
+#3 {main}
+  thrown in /home/grueneve/public_html/nhg/php/components/footer.php on line 8
+[09-Jun-2020 17:06:57 UTC] PHP Fatal error:  Uncaught PDOException: SQLSTATE[28000] [1045] Access denied for user 'grueneve_alles'@'localhost' (using password: YES) in /home/grueneve/public_html/nhg/php/components/footer.php:8
+Stack trace:
+#0 /home/grueneve/public_html/nhg/php/components/footer.php(8): PDO->__construct('mysql:host=loca...', 'grueneve_alles', 'Pascal45@phpmya...')
+#1 /home/grueneve/public_html/nhg/php/components/footer.php(10): createConnection('grueneve_alles', 'Pascal45@phpmya...')
+#2 /home/grueneve/public_html/nhg/php/seiten/index.php(67): require_once('/home/grueneve/...')
+#3 {main}
+  thrown in /home/grueneve/public_html/nhg/php/components/footer.php on line 8
+[10-Jun-2020 18:39:38 UTC] PHP Fatal error:  Uncaught PDOException: SQLSTATE[28000] [1045] Access denied for user 'grueneve_alles'@'localhost' (using password: YES) in /home/grueneve/public_html/nhg/php/components/footer.php:8
+Stack trace:
+#0 /home/grueneve/public_html/nhg/php/components/footer.php(8): PDO->__construct('mysql:host=loca...', 'grueneve_alles', 'Pascal45@phpmya...')
+#1 /home/grueneve/public_html/nhg/php/components/footer.php(10): createConnection('grueneve_alles', 'Pascal45@phpmya...')
+#2 /home/grueneve/public_html/nhg/php/seiten/index.php(67): require_once('/home/grueneve/...')
+#3 {main}
+  thrown in /home/grueneve/public_html/nhg/php/components/footer.php on line 8
+[10-Jun-2020 20:29:53 UTC] PHP Fatal error:  Uncaught PDOException: SQLSTATE[28000] [1045] Access denied for user 'grueneve_alles'@'localhost' (using password: YES) in /home/grueneve/public_html/nhg/php/components/footer.php:8
+Stack trace:
+#0 /home/grueneve/public_html/nhg/php/components/footer.php(8): PDO->__construct('mysql:host=loca...', 'grueneve_alles', 'Pascal45@phpmya...')
+#1 /home/grueneve/public_html/nhg/php/components/footer.php(10): createConnection('grueneve_alles', 'Pascal45@phpmya...')
+#2 /home/grueneve/public_html/nhg/php/seiten/index.php(67): require_once('/home/grueneve/...')
+#3 {main}
+  thrown in /home/grueneve/public_html/nhg/php/components/footer.php on line 8
+[11-Jun-2020 06:53:39 UTC] PHP Fatal error:  Uncaught PDOException: SQLSTATE[28000] [1045] Access denied for user 'grueneve_alles'@'localhost' (using password: YES) in /home/grueneve/public_html/nhg/php/components/footer.php:8
+Stack trace:
+#0 /home/grueneve/public_html/nhg/php/components/footer.php(8): PDO->__construct('mysql:host=loca...', 'grueneve_alles', 'Pascal45@phpmya...')
+#1 /home/grueneve/public_html/nhg/php/components/footer.php(10): createConnection('grueneve_alles', 'Pascal45@phpmya...')
+#2 /home/grueneve/public_html/nhg/php/seiten/index.php(67): require_once('/home/grueneve/...')
+#3 {main}
+  thrown in /home/grueneve/public_html/nhg/php/components/footer.php on line 8
+[11-Jun-2020 10:39:40 UTC] PHP Fatal error:  Uncaught PDOException: SQLSTATE[28000] [1045] Access denied for user 'grueneve_alles'@'localhost' (using password: YES) in /home/grueneve/public_html/nhg/php/components/footer.php:8
+Stack trace:
+#0 /home/grueneve/public_html/nhg/php/components/footer.php(8): PDO->__construct('mysql:host=loca...', 'grueneve_alles', 'Pascal45@phpmya...')
+#1 /home/grueneve/public_html/nhg/php/components/footer.php(10): createConnection('grueneve_alles', 'Pascal45@phpmya...')
+#2 /home/grueneve/public_html/nhg/php/seiten/index.php(67): require_once('/home/grueneve/...')
+#3 {main}
+  thrown in /home/grueneve/public_html/nhg/php/components/footer.php on line 8
+[11-Jun-2020 15:09:29 UTC] PHP Fatal error:  Uncaught PDOException: SQLSTATE[28000] [1045] Access denied for user 'grueneve_alles'@'localhost' (using password: YES) in /home/grueneve/public_html/nhg/php/components/footer.php:8
+Stack trace:
+#0 /home/grueneve/public_html/nhg/php/components/footer.php(8): PDO->__construct('mysql:host=loca...', 'grueneve_alles', 'Pascal45@phpmya...')
+#1 /home/grueneve/public_html/nhg/php/components/footer.php(10): createConnection('grueneve_alles', 'Pascal45@phpmya...')
+#2 /home/grueneve/public_html/nhg/php/seiten/index.php(67): require_once('/home/grueneve/...')
+#3 {main}
+  thrown in /home/grueneve/public_html/nhg/php/components/footer.php on line 8
+[11-Jun-2020 18:52:41 UTC] PHP Fatal error:  Uncaught PDOException: SQLSTATE[28000] [1045] Access denied for user 'grueneve_alles'@'localhost' (using password: YES) in /home/grueneve/public_html/nhg/php/components/footer.php:8
+Stack trace:
+#0 /home/grueneve/public_html/nhg/php/components/footer.php(8): PDO->__construct('mysql:host=loca...', 'grueneve_alles', 'Pascal45@phpmya...')
+#1 /home/grueneve/public_html/nhg/php/components/footer.php(10): createConnection('grueneve_alles', 'Pascal45@phpmya...')
+#2 /home/grueneve/public_html/nhg/php/seiten/mitglieder.php(74): require_once('/home/grueneve/...')
+#3 {main}
+  thrown in /home/grueneve/public_html/nhg/php/components/footer.php on line 8
+[11-Jun-2020 23:43:48 UTC] PHP Fatal error:  Uncaught PDOException: SQLSTATE[28000] [1045] Access denied for user 'grueneve_alles'@'localhost' (using password: YES) in /home/grueneve/public_html/nhg/php/components/footer.php:8
+Stack trace:
+#0 /home/grueneve/public_html/nhg/php/components/footer.php(8): PDO->__construct('mysql:host=loca...', 'grueneve_alles', 'Pascal45@phpmya...')
+#1 /home/grueneve/public_html/nhg/php/components/footer.php(10): createConnection('grueneve_alles', 'Pascal45@phpmya...')
+#2 /home/grueneve/public_html/nhg/php/seiten/index.php(67): require_once('/home/grueneve/...')
+#3 {main}
+  thrown in /home/grueneve/public_html/nhg/php/components/footer.php on line 8
+[13-Jun-2020 11:42:34 UTC] PHP Fatal error:  Uncaught PDOException: SQLSTATE[28000] [1045] Access denied for user 'grueneve_alles'@'localhost' (using password: YES) in /home/grueneve/public_html/nhg/php/components/footer.php:8
+Stack trace:
+#0 /home/grueneve/public_html/nhg/php/components/footer.php(8): PDO->__construct('mysql:host=loca...', 'grueneve_alles', 'Pascal45@phpmya...')
+#1 /home/grueneve/public_html/nhg/php/components/footer.php(10): createConnection('grueneve_alles', 'Pascal45@phpmya...')
+#2 /home/grueneve/public_html/nhg/php/seiten/index.php(67): require_once('/home/grueneve/...')
+#3 {main}
+  thrown in /home/grueneve/public_html/nhg/php/components/footer.php on line 8
+[14-Jun-2020 12:01:48 UTC] PHP Fatal error:  Uncaught PDOException: SQLSTATE[28000] [1045] Access denied for user 'grueneve_alles'@'localhost' (using password: YES) in /home/grueneve/public_html/nhg/php/components/footer.php:8
+Stack trace:
+#0 /home/grueneve/public_html/nhg/php/components/footer.php(8): PDO->__construct('mysql:host=loca...', 'grueneve_alles', 'Pascal45@phpmya...')
+#1 /home/grueneve/public_html/nhg/php/components/footer.php(10): createConnection('grueneve_alles', 'Pascal45@phpmya...')
+#2 /home/grueneve/public_html/nhg/php/seiten/index.php(67): require_once('/home/grueneve/...')
+#3 {main}
+  thrown in /home/grueneve/public_html/nhg/php/components/footer.php on line 8
+[16-Jun-2020 14:52:49 UTC] PHP Fatal error:  Uncaught PDOException: SQLSTATE[28000] [1045] Access denied for user 'grueneve_alles'@'localhost' (using password: YES) in /home/grueneve/public_html/nhg/php/components/footer.php:8
+Stack trace:
+#0 /home/grueneve/public_html/nhg/php/components/footer.php(8): PDO->__construct('mysql:host=loca...', 'grueneve_alles', 'Pascal45@phpmya...')
+#1 /home/grueneve/public_html/nhg/php/components/footer.php(10): createConnection('grueneve_alles', 'Pascal45@phpmya...')
+#2 /home/grueneve/public_html/nhg/php/seiten/index.php(67): require_once('/home/grueneve/...')
+#3 {main}
+  thrown in /home/grueneve/public_html/nhg/php/components/footer.php on line 8
+[20-Jun-2020 00:31:25 UTC] PHP Fatal error:  Uncaught PDOException: SQLSTATE[28000] [1045] Access denied for user 'grueneve_alles'@'localhost' (using password: YES) in /home/grueneve/public_html/nhg/php/components/footer.php:8
+Stack trace:
+#0 /home/grueneve/public_html/nhg/php/components/footer.php(8): PDO->__construct('mysql:host=loca...', 'grueneve_alles', 'Pascal45@phpmya...')
+#1 /home/grueneve/public_html/nhg/php/components/footer.php(10): createConnection('grueneve_alles', 'Pascal45@phpmya...')
+#2 /home/grueneve/public_html/nhg/php/seiten/index.php(67): require_once('/home/grueneve/...')
+#3 {main}
+  thrown in /home/grueneve/public_html/nhg/php/components/footer.php on line 8
+[21-Jun-2020 07:32:35 UTC] PHP Fatal error:  Uncaught PDOException: SQLSTATE[28000] [1045] Access denied for user 'grueneve_alles'@'localhost' (using password: YES) in /home/grueneve/public_html/nhg/php/components/footer.php:8
+Stack trace:
+#0 /home/grueneve/public_html/nhg/php/components/footer.php(8): PDO->__construct('mysql:host=loca...', 'grueneve_alles', 'Pascal45@phpmya...')
+#1 /home/grueneve/public_html/nhg/php/components/footer.php(10): createConnection('grueneve_alles', 'Pascal45@phpmya...')
+#2 /home/grueneve/public_html/nhg/php/seiten/index.php(67): require_once('/home/grueneve/...')
+#3 {main}
+  thrown in /home/grueneve/public_html/nhg/php/components/footer.php on line 8
+[26-Jun-2020 04:15:43 UTC] PHP Fatal error:  Uncaught PDOException: SQLSTATE[28000] [1045] Access denied for user 'grueneve_alles'@'localhost' (using password: YES) in /home/grueneve/public_html/nhg/php/components/footer.php:8
+Stack trace:
+#0 /home/grueneve/public_html/nhg/php/components/footer.php(8): PDO->__construct('mysql:host=loca...', 'grueneve_alles', 'Pascal45@phpmya...')
+#1 /home/grueneve/public_html/nhg/php/components/footer.php(10): createConnection('grueneve_alles', 'Pascal45@phpmya...')
+#2 /home/grueneve/public_html/nhg/php/seiten/index.php(67): require_once('/home/grueneve/...')
+#3 {main}
+  thrown in /home/grueneve/public_html/nhg/php/components/footer.php on line 8
+[01-Jul-2020 14:33:29 UTC] PHP Fatal error:  Uncaught PDOException: SQLSTATE[28000] [1045] Access denied for user 'grueneve_alles'@'localhost' (using password: YES) in /home/grueneve/public_html/nhg/php/components/footer.php:8
+Stack trace:
+#0 /home/grueneve/public_html/nhg/php/components/footer.php(8): PDO->__construct('mysql:host=loca...', 'grueneve_alles', 'Pascal45@phpmya...')
+#1 /home/grueneve/public_html/nhg/php/components/footer.php(10): createConnection('grueneve_alles', 'Pascal45@phpmya...')
+#2 /home/grueneve/public_html/nhg/php/seiten/index.php(67): require_once('/home/grueneve/...')
+#3 {main}
+  thrown in /home/grueneve/public_html/nhg/php/components/footer.php on line 8
+[06-Jul-2020 18:14:27 UTC] PHP Fatal error:  Uncaught PDOException: SQLSTATE[28000] [1045] Access denied for user 'grueneve_alles'@'localhost' (using password: YES) in /home/grueneve/public_html/nhg/php/components/footer.php:8
+Stack trace:
+#0 /home/grueneve/public_html/nhg/php/components/footer.php(8): PDO->__construct('mysql:host=loca...', 'grueneve_alles', 'Pascal45@phpmya...')
+#1 /home/grueneve/public_html/nhg/php/components/footer.php(10): createConnection('grueneve_alles', 'Pascal45@phpmya...')
+#2 /home/grueneve/public_html/nhg/php/seiten/index.php(67): require_once('/home/grueneve/...')
+#3 {main}
+  thrown in /home/grueneve/public_html/nhg/php/components/footer.php on line 8
+[12-Jul-2020 01:28:28 UTC] PHP Fatal error:  Uncaught PDOException: SQLSTATE[28000] [1045] Access denied for user 'grueneve_alles'@'localhost' (using password: YES) in /home/grueneve/public_html/nhg/php/components/footer.php:8
+Stack trace:
+#0 /home/grueneve/public_html/nhg/php/components/footer.php(8): PDO->__construct('mysql:host=loca...', 'grueneve_alles', 'Pascal45@phpmya...')
+#1 /home/grueneve/public_html/nhg/php/components/footer.php(10): createConnection('grueneve_alles', 'Pascal45@phpmya...')
+#2 /home/grueneve/public_html/nhg/php/seiten/index.php(67): require_once('/home/grueneve/...')
+#3 {main}
+  thrown in /home/grueneve/public_html/nhg/php/components/footer.php on line 8
+[17-Jul-2020 04:40:16 UTC] PHP Fatal error:  Uncaught PDOException: SQLSTATE[28000] [1045] Access denied for user 'grueneve_alles'@'localhost' (using password: YES) in /home/grueneve/public_html/nhg/php/components/footer.php:8
+Stack trace:
+#0 /home/grueneve/public_html/nhg/php/components/footer.php(8): PDO->__construct('mysql:host=loca...', 'grueneve_alles', 'Pascal45@phpmya...')
+#1 /home/grueneve/public_html/nhg/php/components/footer.php(10): createConnection('grueneve_alles', 'Pascal45@phpmya...')
+#2 /home/grueneve/public_html/nhg/php/seiten/index.php(67): require_once('/home/grueneve/...')
+#3 {main}
+  thrown in /home/grueneve/public_html/nhg/php/components/footer.php on line 8
+[18-Jul-2020 05:45:48 UTC] PHP Fatal error:  Uncaught PDOException: SQLSTATE[28000] [1045] Access denied for user 'grueneve_alles'@'localhost' (using password: YES) in /home/grueneve/public_html/nhg/php/components/footer.php:8
+Stack trace:
+#0 /home/grueneve/public_html/nhg/php/components/footer.php(8): PDO->__construct('mysql:host=loca...', 'grueneve_alles', 'Pascal45@phpmya...')
+#1 /home/grueneve/public_html/nhg/php/components/footer.php(10): createConnection('grueneve_alles', 'Pascal45@phpmya...')
+#2 /home/grueneve/public_html/nhg/php/seiten/index.php(67): require_once('/home/grueneve/...')
+#3 {main}
+  thrown in /home/grueneve/public_html/nhg/php/components/footer.php on line 8
+[20-Jul-2020 14:36:42 UTC] PHP Fatal error:  Uncaught PDOException: SQLSTATE[28000] [1045] Access denied for user 'grueneve_alles'@'localhost' (using password: YES) in /home/grueneve/public_html/nhg/php/components/footer.php:8
+Stack trace:
+#0 /home/grueneve/public_html/nhg/php/components/footer.php(8): PDO->__construct('mysql:host=loca...', 'grueneve_alles', 'Pascal45@phpmya...')
+#1 /home/grueneve/public_html/nhg/php/components/footer.php(10): createConnection('grueneve_alles', 'Pascal45@phpmya...')
+#2 /home/grueneve/public_html/nhg/php/seiten/index.php(67): require_once('/home/grueneve/...')
+#3 {main}
+  thrown in /home/grueneve/public_html/nhg/php/components/footer.php on line 8
+[23-Jul-2020 20:55:14 UTC] PHP Fatal error:  Uncaught PDOException: SQLSTATE[28000] [1045] Access denied for user 'grueneve_alles'@'localhost' (using password: YES) in /home/grueneve/public_html/nhg/php/components/footer.php:8
+Stack trace:
+#0 /home/grueneve/public_html/nhg/php/components/footer.php(8): PDO->__construct('mysql:host=loca...', 'grueneve_alles', 'Pascal45@phpmya...')
+#1 /home/grueneve/public_html/nhg/php/components/footer.php(10): createConnection('grueneve_alles', 'Pascal45@phpmya...')
+#2 /home/grueneve/public_html/nhg/php/seiten/index.php(67): require_once('/home/grueneve/...')
+#3 {main}
+  thrown in /home/grueneve/public_html/nhg/php/components/footer.php on line 8
+[27-Jul-2020 04:25:47 UTC] PHP Fatal error:  Uncaught PDOException: SQLSTATE[28000] [1045] Access denied for user 'grueneve_alles'@'localhost' (using password: YES) in /home/grueneve/public_html/nhg/php/components/footer.php:8
+Stack trace:
+#0 /home/grueneve/public_html/nhg/php/components/footer.php(8): PDO->__construct('mysql:host=loca...', 'grueneve_alles', 'Pascal45@phpmya...')
+#1 /home/grueneve/public_html/nhg/php/components/footer.php(10): createConnection('grueneve_alles', 'Pascal45@phpmya...')
+#2 /home/grueneve/public_html/nhg/php/seiten/index.php(67): require_once('/home/grueneve/...')
+#3 {main}
+  thrown in /home/grueneve/public_html/nhg/php/components/footer.php on line 8
+[30-Jul-2020 11:31:31 UTC] PHP Fatal error:  Uncaught PDOException: SQLSTATE[28000] [1045] Access denied for user 'grueneve_alles'@'localhost' (using password: YES) in /home/grueneve/public_html/nhg/php/components/footer.php:8
+Stack trace:
+#0 /home/grueneve/public_html/nhg/php/components/footer.php(8): PDO->__construct('mysql:host=loca...', 'grueneve_alles', 'Pascal45@phpmya...')
+#1 /home/grueneve/public_html/nhg/php/components/footer.php(10): createConnection('grueneve_alles', 'Pascal45@phpmya...')
+#2 /home/grueneve/public_html/nhg/php/seiten/index.php(67): require_once('/home/grueneve/...')
+#3 {main}
+  thrown in /home/grueneve/public_html/nhg/php/components/footer.php on line 8
+[02-Aug-2020 18:37:13 UTC] PHP Fatal error:  Uncaught PDOException: SQLSTATE[28000] [1045] Access denied for user 'grueneve_alles'@'localhost' (using password: YES) in /home/grueneve/public_html/nhg/php/components/footer.php:8
+Stack trace:
+#0 /home/grueneve/public_html/nhg/php/components/footer.php(8): PDO->__construct('mysql:host=loca...', 'grueneve_alles', 'Pascal45@phpmya...')
+#1 /home/grueneve/public_html/nhg/php/components/footer.php(10): createConnection('grueneve_alles', 'Pascal45@phpmya...')
+#2 /home/grueneve/public_html/nhg/php/seiten/index.php(67): require_once('/home/grueneve/...')
+#3 {main}
+  thrown in /home/grueneve/public_html/nhg/php/components/footer.php on line 8

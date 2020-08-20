@@ -1,0 +1,140 @@
+.helloName {
+    display: inline-block; 
+    color:var(--HF_blau); 
+    background-color: var(--HF_gelb); 
+    font-size: 2.7rem; 
+}
+nav {
+    background-color: var(--HF_gelb); 
+    min-height: 50px;
+    padding: 10px;
+    font-size: 1.5rem; 
+    font-weight: 100;
+    line-height: 50px;
+}
+#main .todo {
+    width: 300px; 
+    height: 300px; 
+    padding: 10px; 
+    font-size: 2rem; 
+    line-height: 2.8rem;
+    font-weight: bold; 
+}
+#main {
+    margin-top: 20vw; 
+    
+}
+nav .butLogout {
+    max-height: 50px;
+    line-height:50px;
+    background-color: var(--HF_blau);
+    color: white; 
+    text-decoration: none;
+    display: block; 
+    text-align: center; 
+    width: 125px; 
+    font-size: 25px; 
+
+}
+nav ul {
+    list-style: none; 
+    justify-content: space-around;
+     
+}
+nav ul li {
+    margin: 0 15px 0 15px;
+}
+nav .butLogout:hover {
+    background-color: var(--AF_magenta);
+}
+
+.labelWriteAkt {
+    display: inline-block; 
+    width: 200px; 
+    font-size: 1.6rem; 
+}
+
+/*Hinweis für eine fehlerhafte Dateiauswahl*/
+.advWrongMimeType{
+    font-size: 2.5em; 
+    animation: blinken 10s linear; 
+    animation-iteration-count: infinite;
+}
+@keyframes blinken {
+    from {
+        background-color: magenta; 
+        color: white; 
+    }
+    50% {
+        background-color: white; 
+        color: magenta; 
+    }
+    to {
+        background-color: magenta; 
+        color: white; 
+    }
+
+}
+
+/* Form upload*/
+.pFormUpload{
+    margin: 10px; 
+}
+.butUpload {
+    max-height: 50px;
+    line-height:50px;
+    background-color: var(--HF_blau);
+    color: white; 
+    text-decoration: none;
+    display: block; 
+    text-align: center; 
+    width: 125px; 
+    font-size: 25px; 
+    border:none; 
+    width: 200px; 
+    cursor: pointer; 
+
+}
+#wrapperButUpload{
+    max-width: 50em; 
+    width: 90vw; 
+    background-color: white;
+    border-radius: 5px; 
+    font-size: 1.5em;
+    padding: 15px; 
+}
+
+/*die Navigation für die Seite intern*/
+
+.navigationInside{
+    padding: 10px; 
+    list-style: none;
+    background-color: var(--HF_blau); 
+}
+
+.navigationInside a {
+    text-decoration: none; 
+}
+/*Beitrag aktuelles*/
+.artActual {
+    max-width: 60em; 
+    width: 100vw; 
+    background-color: white;
+    min-height: 400px;
+    border-radius: 5px; 
+    font-size: 2em;
+    padding: 25px 25px 25px 25px; 
+    line-height: 2.5em;
+    margin: 25px 0 25px 0; 
+}
+.artActual img{
+    float: left;
+    width: 45%;
+    margin-right: 15px; 
+    border-radius: 10px; 
+    max-width: 300px; 
+    
+}
+
+
+

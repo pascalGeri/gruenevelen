@@ -1,0 +1,54 @@
+#formLogin {
+    background-color: white; 
+    height: auto; 
+    width: 90vw;
+    max-width: 600px; 
+    font-size: 2rem;  
+    padding: 15px 15px 6vw 15px; 
+}
+.labelInput {
+    width: 38%; 
+    display: inline-block; 
+
+}
+.pformElement {
+    margin: 25px 0 0 0; 
+    font-size: inherit; 
+}
+input {
+    font-size: inherit;
+}
+[name=submitLogin]{
+    width: 50vw;
+    max-width: 200px;
+    font-weight: bold;
+    font-size: 3rem;
+    height: 100px;
+    background-color: var(--HF_blau);
+    color: white; 
+    cursor: pointer; 
+}
+[name=submitLogin]:hover {
+    transform: scale(1.05, 1.05); 
+    transition: all 0.3s ease;
+}
+[name=submitLogin]:active {
+    transform: scale(1.05, 1.05); 
+    transition: all 0.3s ease;
+    background-color: var(--AF_magenta);
+}
+
+/* form für Termin und Links für die Nutzer */
+
+.form_termin_links{
+    margin: 0 15px 15px 15px;
+    padding: 15px; 
+    width: 300px; 
+    border-radius: 5px; 
+    background-color: white;
+    font-size: 1.5rem;  
+
+}
+.wrapper_inputs_termine {
+    margin: 15px 0px 15px 0px; 
+}

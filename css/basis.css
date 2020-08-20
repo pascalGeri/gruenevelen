@@ -1,0 +1,480 @@
+@font-face {
+    font-family: 'Arvo Regular';
+    font-display: swap;
+    src: local('Arvo Regular'), local('ArvoRegular'), url('./fonts/arvo_regular.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+  }
+  
+  @font-face {
+    font-family: 'Arvo Gruen';
+    font-display: swap;
+    src: local('Arvo Gruen'), local('ArvoGruen'), url('./fonts/arvo_gruen.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+  }
+  
+  
+  @font-face {
+    font-family: 'PT Sans';
+    font-display: fallback;
+    src: local('PT Sans'), local('PTSans-Regular'), url('./fonts/ptsans-regular.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+  }
+  
+  
+  
+  @font-face {
+    font-family: 'PT Sans Bold';
+    font-display: fallback;
+    src: local('PT Sans Bold'), local('PTSans-Bold'), url('./fonts/ptsans-bold.woff') format('woff');
+    font-weight: bold;
+    font-style: normal;
+  }
+  /* ALLGEMEINES */
+  * {
+    margin: 0; 
+    padding: 0; 
+    box-sizing: border-box;
+    position: relative;  
+    font-family: "PT Sans"; 
+}
+a {
+    text-decoration: none; 
+}
+.displayNone {
+    display: none;
+}
+h1 {
+    font-family: "Arvo Regular"; 
+}
+h2 {
+    font-family: "Arvo Gruen"; 
+}
+html {
+    font-size: 65%; 
+}
+body {
+    background-image: url('../images/body_bg.jpg');
+    background-size: 100% 100%;
+    background-position: center;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    padding: 110px 0px 0px 0px; 
+    min-height: 100vh;
+}
+
+  :root { 
+     --HF_blau: #4cb4e7; 
+     --HF_gruen: #46962b; 
+     --HF_gelb: #ffee00; 
+     --AF_hellblau: #d4edfc; 
+     --AF_magenta: #e6007e; 
+     --AF_dg: #0a321e; 
+  }
+  .flex, .containerPerson {
+      display: flex; 
+      flex-wrap: wrap; 
+      align-content: center; 
+      justify-content: space-around;
+      display: -webkit-flex;
+        display: -ms-flex;
+         -webkit-flex-wrap: wrap;
+        -ms-flex-wrap: wrap;
+  }
+/*Formular*/
+.formLogin {
+    flex: 0 1 500px; 
+    padding: 15px; 
+    font-size: 2rem; 
+}
+
+
+  
+
+  /* Das Navigationsmenu */
+  .linkMenu {
+      color: white; 
+  }
+  .menu {
+      position: fixed; 
+      top: 0px; 
+      right: 0px; 
+      background-color: var(--HF_blau);
+      border: 5px solid white; 
+      color: green; 
+      width: 300px; 
+        padding: 16px;
+        z-index: 101; 
+        min-height: 100vh; 
+  }
+  .aMenu{
+      cursor: pointer; 
+      color: white; 
+      text-decoration: none; 
+      font-size: 2.5rem;
+      line-height: 3.5rem;
+      display: block;
+      margin: 1rem 0  0 0.3rem; 
+      
+  }
+  .aMenuWp{
+      color: magenta; 
+      text-decoration: none; 
+      font-size: 2.5rem;
+      line-height: 3.5rem;
+      display: block;
+      margin: 1rem 0  0 0.3rem; 
+      
+  }
+  .a_wp{
+      color: white; 
+      text-decoration: none; 
+      font-size: 2.5rem;
+      line-height: 3.5rem;
+      display: block;
+      width: 100%;
+      margin: 1rem 0  0 1.1rem;  
+  }
+  .aMenu:hover {
+      text-decoration: underline; 
+  }
+  #deleteBut, .delete_but {
+      cursor: pointer; 
+      color: var(--HF_blau);
+      background-color: white; 
+      position: fixed; 
+      right: 16px; 
+      top: 16PX;
+      font-size: 2.3rem; 
+      border-radius: 50%; 
+      width:25px; 
+      height: 25px;
+      line-height: 25px; 
+      text-align: center;
+      font-weight: bold;
+  }
+  #deleteBut:active, .delete_but:active {
+      background-color:  var(--AF_magenta);
+  }
+  #form_mail .delete_but {
+    position: absolute;
+    background-color: var(--HF_blau);
+    color: white; 
+    z-index:127; 
+    max-width: 800px;
+  }
+
+  /* der Mainbereich */
+  main {
+      min-height: 70vh;
+}
+  #mfg {
+      line-height: 4rem;
+  }
+  #gruss{
+      color: var(--AF_magenta); 
+      font-size: 2rem;
+      
+  }
+  #mainHello {
+      font-size: 1.7rem; 
+  }
+  
+  .h2Main {
+      flex: 0 0 100%;
+      color: var(--HF_gruen); 
+      padding-bottom: 20px
+  }
+  .mainFig {
+      margin: 2.5%;
+      flex: 0 0 45%;
+  }
+  #mainTeam .mainFig {
+      padding: 2.5%;
+      flex: 0 0 100%;
+  }
+  #mainTeam .mainFig img {
+      flex: 0 0 100%;
+      width: 100%;
+  }
+
+  .mainSpeakers {
+      padding: 15px; 
+      flex: 0 0 100%; 
+      border-radius: 7px; 
+      background-color: white;
+      margin: 15px 0 15px 0 ; 
+      min-height: 30rem;
+      font-Size: 1.6rem; 
+  }
+  .mainSpeakers .mainFig {
+      flex: 0 0 45%;
+  }
+  .mainFig img {
+      width: 100%;
+  }
+  
+  .mainArt, #artThemen {
+      padding: 15px; 
+      flex: 0 0 100%; 
+      border-radius: 7px; 
+      background-color: white;
+      margin: 15px 0 15px 0 ; 
+      min-height: 30rem;
+      font-Size: 1.6rem; 
+  }
+  .themen, .todo {
+     background-color: white;
+      flex: 0 0 15vw;
+      height: 15vw;
+      max-width: 15rem;
+      max-height: 15rem;
+      min-width: 11rem;
+      min-height: 11rem;
+      margin: 1rem;  
+      font-size: 1.99rem; 
+      color: white; 
+      border-radius: 3px; 
+      font-weight: bold;
+      cursor: pointer; 
+  }
+  #artThemen a {
+      text-decoration: none;
+      display: block; 
+  }
+  .themen:hover, .todo:hover {
+      transform: translate(5px, 5px);
+      transition: all 0.4s ease; 
+      box-shadow: 3px 3px 5px gray; 
+  }
+  #thema1 {
+      background-color: var(--HF_blau);
+  }
+  #thema2 {
+      background-color: var(--HF_gelb);
+      font-size: 1.7rem; color: black; 
+  }
+  #thema3 {
+      background-color: var(--AF_hellblau);
+      color: black; 
+  }
+  #thema4 {
+      background-color: var(--AF_magenta);
+  }
+  #thema5 {
+      background-color: var(--AF_dg);
+  }
+  #thema6 {
+      background-color:white;
+      color: black; 
+  }
+/* Der Header */
+.header {
+    background-color: var(--AF_dg);
+    padding: 10px; top: 0px; 
+    position:fixed;
+    z-index: 100;
+    width:100%; 
+}
+
+.h1header {
+    color: white; 
+    flex: 1 1 100%; 
+}
+.h2header {
+    color: var(--HF_blau);
+    flex: 1 1 100%;  
+}
+.header{
+    height: 110px;
+    justify-content: space-around;
+    padding: 5px; 
+    flex-wrap: nowrap; 
+}
+.imgheader {
+    flex: 0 0 90px; 
+}
+.imgheader img {
+    width: 90px; 
+    height: 90px;    
+}
+.heads {
+    border-top: 4px solid white; ;
+    border-bottom: 4px solid white; ;
+    flex: 0 0 60vw; 
+    justify-content: start; 
+    align-content: space-between; 
+    padding: 10px 0 10px 0; 
+}
+#svgHeader {
+    flex: 0 0 50px; 
+    height: 80px;
+    padding-top: 12px;
+    cursor: pointer; 
+}
+.h1header {
+    font-size: 3.7vw; 
+    text-align: left; 
+    line-height: 2.4rem;
+}
+.h2header {
+    font-size: 4.5vw;
+    text-align: left;
+    line-height: 2.9rem;  
+}
+.formLogin {
+    background-color: white; 
+}
+/* Die Personenseite */
+#articleKontakt {
+    margin: 15px 0 15px 0;
+    background-color: white;
+    font-weight: 100;
+    padding: 25px; 
+    min-height: 300px;
+    max-width: 450px; 
+    font-size: 2rem;
+}
+.containerPerson{
+    background-color: white;
+    flex: 0 0 100vw; 
+    max-width: 450px;
+    overflow:hidden; 
+    margin: 15px 0 15px 0;
+    color: green; 
+}
+.bilder {
+    display: inline-block; 
+    flex: 0 0 50%; 
+    max-width: 250px;
+    overflow: hidden;
+    
+    
+}
+.personenDaten {
+    flex-wrap: nowrap;
+    flex: 0 0 50%; 
+    padding: 25px 10px 20px 10px;
+    overflow:hidden;
+    font-size: 1.5rem; max-width: 250px;
+}
+
+
+/* email verschicken */
+.cont_email {
+    cursor: pointer;
+    text-decoration: underline;
+    font-size: 1.2rem; 
+}
+#bg_form {
+    width: 100vw; 
+    height: 100vh;
+    background-color: hsla(0, 0%, 0%, 0.6);
+    display: flex; 
+    flex-wrap: wrap; 
+    justify-content: center;
+    align-content: center;
+    position: fixed; 
+    top:0; 
+    bottom: 0; 
+    left: 0; 
+    z-index: 125; 
+}
+#form_mail {
+    border: 5px solid var(--HF_blau); 
+    z-index: 126; 
+    width: 100vw;  
+    max-width: 600px; 
+    height: auto;
+    background-color: white; 
+    padding: 25px;   
+}
+#form_mail textarea {
+    display: block;
+    width: 100%; 
+    border: 1px solid var(--AF_magenta);
+    min-height: 45vh;
+}
+#form_mail label {
+    min-width: 250px;  
+    font-size: 1.5rem;
+    line-height: 2rem;
+    display: inline-block; 
+}
+
+
+.delete_but:active {
+    box-shadow: 0 0 0 white; 
+    color: gray; 
+    background-color: rgb(99, 2, 2);
+}
+
+.text_input {
+    padding: 5px;
+    margin: 10px;  
+}
+/*Style f√ºr die Terminarticle*/
+.artTermin {
+    width: 30em;  
+    background-color: white;
+    margin: 30px; 
+    border-radius: 5px; 
+    font-size: 1.5em;
+    padding: 15px; 
+    line-height: 2em;
+}
+.infosTermin{
+    font-weight: bold;
+}
+/*Beitrag aktuelles*/
+.artActual {
+    max-width: 60em; 
+    width: 100vw; 
+    background-color: white;
+    min-height: 400px;
+    border-radius: 5px; 
+    font-size: 2em;
+    padding: 25px 25px 25px 25px; 
+    line-height: 2.5em;
+    margin: 25px 0 25px 0; 
+}
+.artActual img{
+    float: left;
+    width: 45%;
+    margin-right: 15px; 
+    border-radius: 10px; 
+    
+}
+
+/*Listen fè´‰r das Wahlprogramm*/
+.olProgramm {
+    list-style-position: inside;
+    color: var(--HF_blau); 
+    padding: 10px; font-size: 1.7rem;  
+    font-size: 2rem;
+    font-weight: bold; 
+    overflow: hidden; 
+} 
+.h2Programm {
+    font-weight: bold;
+    font-size: 1.7rem; 
+    display:inline-block; 
+    color: var(--HF_blau);
+    margin: 0 0 5px 0;  
+}
+.olProgramm span.textProgramm{
+    color: black;
+    font-size: 1.7rem; 
+    font-weight: 100; 
+    line-height: 2.5rem;
+    
+
+}
+b {
+    font-weight: bold;
+    color: var(--AF_magenta);
+}
+
+

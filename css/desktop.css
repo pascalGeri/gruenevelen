@@ -1,0 +1,60 @@
+@import url('basis.css'); 
+header#header.header {
+     
+    width: 100vw;    
+}
+main#main {
+    margin: 0 12.5vw 0 12.5vw;  
+    width: 75vw; 
+}
+div.heads {
+    width: 75vw;
+}
+div.imgheader {
+    width: 12.5vw;
+    text-align: center; 
+}
+.header#header div#svgHeader{
+    flex: 0 0 12.5vw; 
+    text-align: center; 
+
+}.h1header {
+    font-size: 2.8rem; 
+   
+}
+.h2header {
+    font-size: 3.5rem;
+    
+}
+.formLogin {
+    flex: 0 0 500px; 
+    padding: 15px; 
+    font-size: 2rem; 
+}
+footer {
+    padding: 15px;
+    width: 100vw; 
+    background-color: var(--AF_dg);
+    color: grey; 
+     
+    
+}
+/*Erweiterungen für das Programm*/
+.artProgramm {
+    font-size: 2.6rem; 
+    line-height: 4.7rem;
+    padding: 25px; 
+}
+.olProgramm li span.textProgramm {
+    font-size: 2.7rem; 
+    line-height: 4.7rem;
+}
+.mainArt .olProgramm {
+    font-size: 3rem;
+}
+#mainTeam .h2Programm{
+    font-size: 2.8rem;
+}
+
+
+
