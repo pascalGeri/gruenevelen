@@ -94,6 +94,7 @@ $arrayLinks = [
     ['Kontakt','./php/seiten/mitglieder.php', 'Hier können Sie Kontakt zu unseren Mitgliedern aufnehmen!'], 
     ['LOGIN','./php/seiten/LOGIN.php', 'Login, leider nur für Mitglieder des Ortsvereins!'], 
     ['Termine','./php/seiten/termine.php', 'Termine für die nächste Zeit'], 
+    ['Wahlkreiskandidaten','./php/seiten/Wahlkreiskandidaten.php', 'Unsere Kandidaten für die Wahlkreise!'], 
     ['Impressum','./php/seiten/impressum.de', 'zum Impressum'],
     ['Artenvielfalt','./php/seiten/artenvielfalt.php', 'Unser Programm zu Artenvielfalt' ], 
     ['Wirtschaft','./php/seiten/wirtschaft.php', 'Unser Programm für die Wirtschaft'], 

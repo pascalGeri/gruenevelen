@@ -36,7 +36,6 @@ footer {
     width: 100vw; 
     background-color: var(--AF_dg);
     color: grey; 
-     
     
 }
 /*Erweiterungen für das Programm*/
@@ -56,5 +55,9 @@ footer {
     font-size: 2.8rem;
 }
 
-
+/*Seite mit den Wahlkreiskandidaten   */
+.wrapper_candidate {
+    max-width: 375px; 
+}
+ 
 

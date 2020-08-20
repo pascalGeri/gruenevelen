@@ -448,7 +448,7 @@ body {
     
 }
 
-/*Listen fè´‰r das Wahlprogramm*/
+/*Listen fÔøΩÔøΩÔøΩr das Wahlprogramm*/
 .olProgramm {
     list-style-position: inside;
     color: var(--HF_blau); 
@@ -476,5 +476,47 @@ b {
     font-weight: bold;
     color: var(--AF_magenta);
 }
+
+
+/* Seite mit den Wahlkreiskandidaten */
+
+span .span_wahlkreis {
+    color: var(--AF_magenta); 
+}
+p.head_wahlkreis_candidates {
+    font-size: 2rem; 
+    color: var(--HF_gruen); 
+    flex: 0 0 100%;
+    padding: 15px;  
+}
+span.span_wahlkreis {
+    color: var(--AF_magenta); 
+    font-weight: bold;    
+
+}
+
+.wrapper_candidate {
+   background-color: white; 
+   border-radius: 5px;
+   padding: 10px; 
+   flex: 0 0 100%; 
+   margin: 15px;
+   max-height: 800px;  
+
+}
+figure.image_candidate {
+    flex: 0 0 100%;
+    margin: 0 25px 0 25px;    
+}
+figure.image_candidate img{
+    max-height: 5009x;
+    max-width: 350px; 
+}
+.image_candidate figcaption {
+    flex: 0 0 100%; 
+    font-size: 1.8rem; 
+    margin: 5px 0 5px 25px; 
+}
+
 
 

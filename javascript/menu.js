@@ -4,7 +4,8 @@ let arrayLinks = [
     ['Aktuelles','./aktuelles.php'], 
     ['Kontakt','./mitglieder.php'], 
     ['LOGIN','./LOGIN.php'], 
-    ['Termine','./termine.php']
+    ['Termine','./termine.php'], 
+    ['Wahlkreiskandidaten', './Wahlkreiskandidaten.php']
 ];
 let arrWahlprogramm = [
     'Wahlprogramm:',

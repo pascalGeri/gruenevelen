@@ -32,4 +32,8 @@ div.imgheader {
     max-width: 250px;
 }
 
+/*Seite mit den Wahlkreiskandidaten   */
+.wrapper_candidate {
+    max-width: 375px; 
+}
 
